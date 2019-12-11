@@ -8,11 +8,11 @@ include toolchain
 
 * for Nethunter use kali_defconfig
 
-**if you are lazy for compiling or you not have a PC you can download the kernel file from here _[Shamu-kali/nigthly](https://github.com/JLynx69/Shamu-kali/tree/master/nightly)_ this file can install from your own TWRP**
+**if you are lazy for compiling or you not have a PC you can download the kernel file from here _[kernel-nh/nigthly](https://github.com/JLynx69/kernel-nh/tree/master/nigthly)_ this file can install from your own TWRP**
 
 kali_defconfig file in this directory /arch/arm/configs/
 
-for kernel already modified just download from here [zImage-dtb](https://github.com/JLynx69/Shamu-kali/tree/master/device/moto/shamu-kernel) and for installation just following tutorial in README
+for kernel already modified just download from here [zImage-dtb](https://github.com/JLynx69/kernel-nh/tree/master/device/moto/shamu-kernel) and for installation just following tutorial in README
 
 for modifyng your own shamu kernel just following the command :
 
