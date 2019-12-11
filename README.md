@@ -32,6 +32,8 @@ _
 * export SUBARCH=arm
 * export CROSS_COMPILE=`pwd`/toolchain/bin/arm-eabi-
 
+_
+
 * make clean && make mrproper
 * make shamu_defconfig
 * make menuconfig
