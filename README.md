@@ -26,6 +26,8 @@ after done type this :
 * sudo rm arch/arm/configs/kali_defconfig
 * cd Shamu-kali
 
+_
+
 * export ARCH=arm
 * export SUBARCH=arm
 * export CROSS_COMPILE=`pwd`/toolchain/bin/arm-eabi-
