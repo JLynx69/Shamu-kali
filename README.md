@@ -45,12 +45,17 @@ you just copy that file like this
 * cp .config arch/arm/configs/kali_defconfig
 after that start the building
 
+* mkdir ../output
 * make O=../output kali_defconfig
 * make O=../output -j4
+
+make O=../output is a output source kernel folder
+so that you not broke the stock kernel source folder
+
 in this step you will waiting for long time, in my time is 2 hours
 because my computer is so poor just have 2 core of cpu :V
 
-after everything are done you will found zImage, zImage-dtb on <b> arch/arm/boot/ </b>
+after everything are done you will found zImage, zImage-dtb on <b> ../output/arch/arm/boot/ </b>
 
 that's kernel file can you flash on your nexus 6 devices
 
