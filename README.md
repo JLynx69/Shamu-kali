@@ -47,6 +47,12 @@ you just copy that file like this
 
 after that start the building
 
+**you can change the name of kernel just edit a _Makefile_**
+
+change line 4 that called EXTRAVERSION = -wisnu069
+
+you can change -wisnu069 to your -namekernel
+
 * mkdir ../output
 * make O=../output kali_defconfig
 * make O=../output -j4
