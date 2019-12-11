@@ -23,8 +23,8 @@ clone this repository using:
 * git clone https://github.com/JLynx69/Shamu-kali.git
 
 after done type this :
-* sudo rm arch/arm/configs/kali_defconfig
 * cd Shamu-kali
+* sudo rm arch/arm/configs/kali_defconfig
 
 _
 
