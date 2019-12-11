@@ -8,6 +8,8 @@ include toolchain
 
 * for Nethunter use kali_defconfig
 
+<b> if you are lazy for compiling or you not have a PC you can download the kernel file from here [Shamu-kali/nigthly](https://github.com/JLynx69/Shamu-kali/tree/master/nightly) this file can install from your own TWRP</b>
+
 kali_defconfig file in this directory /arch/arm/configs/
 
 for kernel already modified just download from here [zImage-dtb](https://github.com/JLynx69/Shamu-kali/tree/master/device/moto/shamu-kernel) and for installation just following tutorial in README
@@ -46,3 +48,5 @@ after everything are done you will found zImage, zImage-dtb on <b> arch/arm/boot
 that's kernel file can you flash on your nexus 6 devices
 
 for tutorial how to flash your own modifying kernel klik here <b> [COMING SOON] </b>
+
+sorry for my bad english :)
