@@ -8,7 +8,7 @@ include toolchain
 
 * for Nethunter use kali_defconfig
 
-<b> if you are lazy for compiling or you not have a PC you can download the kernel file from here [Shamu-kali/nigthly](https://github.com/JLynx69/Shamu-kali/tree/master/nightly) this file can install from your own TWRP</b>
+**if you are lazy for compiling or you not have a PC you can download the kernel file from here _[Shamu-kali/nigthly](https://github.com/JLynx69/Shamu-kali/tree/master/nightly)_ this file can install from your own TWRP**
 
 kali_defconfig file in this directory /arch/arm/configs/
 
@@ -37,12 +37,14 @@ _
 * make clean && make mrproper
 * make shamu_defconfig
 * make menuconfig
+
 after this step you will activate or deactive kernel feature, for more klik here <b> [COMING SOON] </b>
 
 after all done you will found a hidden file that name are .config
 you just copy that file like this
 
 * cp .config arch/arm/configs/kali_defconfig
+
 after that start the building
 
 * mkdir ../output
