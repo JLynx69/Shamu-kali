@@ -3,6 +3,19 @@ that's already modified for Nethunter build
 
 feature :
 
-* all Sounds work
 * wireless adapter firmware
 * HID interface
+
+installation zImage-dtb
+
+from adb & fastboot
+
+_adb reboot bootloader_
+
+just wait your phone going to fastboot mode
+
+_fastboot boot zImage-dtb_
+
+or
+
+_fastboot flash boot zImage-dtb_
