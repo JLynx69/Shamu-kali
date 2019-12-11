@@ -25,9 +25,12 @@ clone this repository using:
 after done type this :
 * sudo rm arch/arm/configs/kali_defconfig
 * cd Shamu-kali
+
 * export ARCH=arm
 * export SUBARCH=arm
 * export CROSS_COMPILE=`pwd`/toolchain/bin/arm-eabi-
+
+* make clean && make mrproper
 * make shamu_defconfig
 * make menuconfig
 after this step you will activate or deactive kernel feature, for more klik here <b> [COMING SOON] </b>
@@ -49,4 +52,4 @@ that's kernel file can you flash on your nexus 6 devices
 
 for tutorial how to flash your own modifying kernel klik here <b> [COMING SOON] </b>
 
-sorry for my bad english :)
+**sorry for my bad english :)**
