@@ -38,7 +38,7 @@ _
 * make shamu_defconfig
 * make menuconfig
 
-after this step you will activate or deactive kernel feature, for more klik here <b> [COMING SOON] </b>
+after this step you will activate or deactive kernel feature, for more klik here <b> https://www.kali.org/docs/nethunter/nethunter-kernel-2-config-1/ </b>
 
 after all done you will found a hidden file that name are .config
 you just copy that file like this
